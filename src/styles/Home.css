@@ -1,0 +1,50 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  min-width: 100vw;
+  height: 100vh;
+  background: lightgreen;
+  margin: 0;
+  overflow: visible;
+}
+
+.container .title-one{
+  color: black;
+   position: absolute;
+  top: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 9rem;
+    opacity: 1;
+}
+
+.modal-div{
+  width: 100%;
+  height: 100%;
+  background: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  transition: all 1s ease-in;
+}
+
+.blind{
+  position: absolute;
+  min-width: 100vw;
+  background: red;
+  height: 0;
+  bottom: 0;
+ 
+  transition: all 1s ease-in;
+}
+
+.section-one{
+  width: 100vw;
+  background: deeppink;
+  height: 100vh;
+}

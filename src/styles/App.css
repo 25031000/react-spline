@@ -1,0 +1,100 @@
+div > h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 9rem;
+  position: absolute;
+  right: 100px;
+  top: 40px;
+  color: whitesmoke;
+  opacity: 0;
+}
+
+body{
+  overflow: hidden;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.7rem;
+  position: absolute;
+  width: 750px;
+  right: 0;
+  top: 320px;
+  color: whitesmoke;
+ opacity: 0;
+}
+.text{
+  transition: all 1s linear;
+  opacity: 1;
+}
+.title{
+  transition: all 1s linear;
+  opacity: 1;
+  position: absolute;
+  top: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 9rem;
+  color: whitesmoke;
+}
+.btn{
+  transition: opacity 1s linear;
+  opacity: 1;
+  cursor: pointer;
+}
+.spline{
+  width: 100%;
+  height: 100%
+}
+
+button{
+  position: absolute;
+  right: 370px;
+  bottom: 100px;
+  width: 160px;
+  padding: 15px;
+  background: transparent;
+  font-size: 1.2rem;
+  font-family: Verdana, sans-serif;
+  border: 2px solid white;
+  border-radius: 30px;
+  color: white;
+  opacity: 0;
+}
+
+.btn:hover{
+  background: rgba(244, 246, 246 , 0.2);
+}
+.modal-cont {
+  width: 0px;
+  background-color: yellow;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+  transition: all 2s linear;
+}
+
+.main{
+  width: 100vw;
+  height: 100vh;
+}
+
+.slide{
+  background: red;
+  transform: scaleY(150) scaleX(900);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transition: all 1s ease-in;
+  border-radius: 50%;
+}
+
+/* .shrink{
+  background: blue;
+  transform: scaleY(20) scaleX(100);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transition: all 1s ease-in;
+  border-radius: 50%;
+}
+ */
